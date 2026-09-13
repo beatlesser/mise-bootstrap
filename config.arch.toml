@@ -1,0 +1,57 @@
+[bootstrap.packages]
+# Notice: please add archlinuxcn and cachyos source first!!!
+# required
+"pacman:git" = "latest"
+"pacman:paru" = "latest"
+"pacman:efibootmgr" = "latest"
+# firmware
+# There is no gpu related, please install them manually.
+"pacman:sof-firmware" = "latest"
+"pacman:alsa-ucm-conf" = "latest"
+"pacman:alsa-firmware" = "latest"
+"pacman:bluez" = "latest"
+"pacman:pipewire" = "latest"
+"pacman:pipewire-pulse" = "latest"
+"pacman:pipewire-alsa" = "latest"
+"pacman:pipewire-jack" = "latest"
+"pacman:wireplumber" = "latest"
+# cli tool
+"pacman:tealdeer" = "latest"
+"pacman:man-db" = "latest"
+"pacman:bash-completion" = "latest"
+"pacman:zoxide" = "latest"
+"pacman:fzf" = "latest"
+"pacman:bat" = "latest"
+"pacman:fd" = "latest"
+"pacman:ripgrep" = "latest"
+"pacman:btop" = "latest"
+"pacman:jq" = "latest"
+"pacman:lazygit" = "latest"
+"pacman:yazi" = "latest"
+"pacman:rsync" = "latest"
+# clipboard
+"pacman:cliphist" = "latest"
+# browser
+"pacman:helium-browser-bin" = "latest"
+# music
+"pacman:go-musicfox-git" = "latest"
+# desktop
+"pacman:flatpak" = "latest"
+"pacman:hyprland" = "latest"
+"pacman:noctalia" = "latest"
+"pacman:foot" = "latest"
+"pacman:neovim" = "latest"
+# input method
+"pacman:fcitx5-im" = "latest"
+"pacman:fcitx5-rime" = "latest"
+"pacman:rime-ice-git" = "latest"
+# fonts
+"pacman:ttf-jetbrains-mono-nerd" = "latest"
+"pacman:ttf-maplemono-nf-cn" = "latest"
+"pacman:noto-fonts-emoji" = "latest"
+# network
+"pacman:ufw" = "latest"
+"pacman:dae-git" = "latest"
+"pacman:flclash" = "latest"
+# aur
+"aur:zmx-bin" = "latest"
