@@ -1,0 +1,6 @@
+[bootstrap.files."/etc/keyd/default.conf"]
+source = "../keyd/default.conf"
+owner = "root"
+group = "root"
+mode = "0640"
+[bootstrap.services.keyd]

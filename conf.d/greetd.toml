@@ -1,0 +1,6 @@
+[bootstrap.files."/etc/greetd/config.toml"]
+source = "../greetd/config.toml"
+owner = "root"
+group = "root"
+mode = "640"
+[bootstrap.services.greetd]

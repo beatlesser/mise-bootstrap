@@ -1,0 +1,11 @@
+[bootstrap.groups.rin]
+system = true
+
+[bootstrap.users.rin]
+system = true
+group = "rin"
+groups = ["wheel"]
+create_home = true
+comment = "rin is a normal user"
+home = "/home/rin"
+shell = "/usr/bin/bash"

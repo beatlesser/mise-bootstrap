@@ -1,0 +1,6 @@
+[bootstrap.files."/etc/dae/config.dae"]
+source = "../dae/config.dae"
+owner = "root"
+group = "root"
+mode = "0640"
+[bootstrap.services.dae]
