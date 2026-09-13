@@ -1,0 +1,19 @@
+[bootstrap.files."/etc/keyd/default.conf"]
+content = '''
+
+[ids]
+
+*
+
+[main]
+# Maps capslock to escape when pressed and control when held.
+capslock = overload(control, esc)
+
+# Remaps the escape key to capslock
+esc = capslock
+'''
+template = true
+owner = "root"
+group = "root"
+mode = "0644"
+[bootstrap.services.keyd]

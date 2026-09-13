@@ -1,0 +1,37 @@
+[tools]
+# dev-lang
+go = "latest"
+zig = "latest"
+# nodejs-toolkit
+node = "latest"
+npm = "latest"
+# pi-agents
+pi = "latest"
+
+[settings]
+dotfiles.root = "~/dotfiles"
+dotfiles.default_mode = "copy"
+
+[bootstrap.repos]
+"~/dotfiles" = { url = "git@github.com:beatlesser/dotfiles.git", ref = "main" }
+
+[dotfiles]
+"~/.bashrc" = {}
+"~/.config/btop" = {}
+"~/.config/fontconfig" = {}
+"~/.config/foot" = {}
+"~/.config/hypr" = {}
+"~/.config/kitty" = {}
+"~/.config/nvim" = {}
+"~/.config/yazi" = {}
+"~/.gitconfig" = {}
+
+[dotfiles."~/.local/share/fcitx5/rime/default.custom.yaml"]
+content = '''
+patch:
+  # 仅使用「雾凇拼音」的默认配置，配置此行即可
+  __include: rime_ice_suggestion:/
+  # 以下根据自己所需自行定义
+  __patch:
+    menu/page_size: 5   #候选词个数
+'''
